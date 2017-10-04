@@ -1,0 +1,4 @@
+        {
+            name: 'l4d2',
+            workingDir: '/opt/steam/servers/l4d2',
+        },
