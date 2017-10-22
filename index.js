@@ -41,7 +41,7 @@ module.exports = ({ workingDir }) => ({
     getArgs,
     command: {
         win32: 'srcds.exe',
-        linux: 'srcds_run',
+        linux: './srcds_run',
     },
     options: {
         cwd: workingDir,
