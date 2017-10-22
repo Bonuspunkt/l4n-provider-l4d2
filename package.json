@@ -1,6 +1,6 @@
 {
   "name": "l4n-provider-l4d2",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
