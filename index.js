@@ -39,6 +39,9 @@ module.exports = ({ workingDir }) => ({
     })),
     portRange: [27100, 27200],
     getArgs,
+    getPrivateInfo: ({ ip, port }) => {
+        return `# [connect to server](steam://connect/${ip}:${port})`;
+    },
     command: {
         win32: 'srcds.exe',
         linux: './srcds_run',
